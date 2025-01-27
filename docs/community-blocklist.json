@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-26T01:19:10.631Z",
+  "blocks": [
+    {
+      "id": 1,
+      "handle": "spammer123",
+      "did": "did:plc:abcdef123456",
+      "blockedByDid": "did:plc:moderator1",
+      "reason": "Spam content",
+      "category": "spam"
+    },
+    {
+      "id": 2,
+      "handle": "harasser456",
+      "did": "did:plc:xyz789",
+      "blockedByDid": "did:plc:moderator2",
+      "reason": "Harassment",
+      "category": "harassment"
+    }
+  ],
+  "metadata": {
+    "totalBlocks": 2,
+    "categories": {
+      "spam": 1,
+      "harassment": 1
+    },
+    "contributors": ["did:plc:moderator1", "did:plc:moderator2"]
+  }
+}
